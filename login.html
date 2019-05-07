@@ -29,7 +29,7 @@
               <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
               <li class="nav-item"><a href="launch.html" class="nav-link">Launch</a></li>
               <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-              <li class="nav-item probootstrap-cta probootstrap-seperator"><a href="signup.html" class="nav-link">Sign up</a></li>
+              <li class="nav-item probootstrap-cta probootstrap-seperator"><a href="login.html" class="nav-link">Sign up</a></li>
               <li class="nav-item probootstrap-cta"><a href="login.html" class="nav-link">Log In</a></li>
             </ul>
           </div>
@@ -56,8 +56,15 @@
         <div class="row">
           <div class="col-md-7 pr-md-5 pr-0">
             <h2 class="mb-5">Log In</h2>
-            <p>Log into Launchpad Here.</p>
-            <p>Firebase Login.</p>
+            <p>Log into your Launchpad profile here.</p>
+              <form>
+                <h3 class="mb-4">Enter Email</h3>
+                  <input type="email" name="email" required>
+                    <br/>
+                <h3 class="mb-4">Password</h3>
+                  <input type="password" name="password" required>
+              </form>
+                <br/>
           </div>
           <div class="col-md-5">
             <h2 class="mb-5">Verify your Launchpad</h2>
@@ -212,6 +219,12 @@
         </div>
       </footer>
     <!-- JavaScript files -->
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/5.11.1/firebase-app.js"></script>
+      <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#reserved-urls -->
+      <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
     <script src="js/jquery-3.2.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
